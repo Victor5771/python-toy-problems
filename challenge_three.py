@@ -5,9 +5,9 @@ def solution(N):
     for i in range(N):
         result += letters[i % 26]
     
-    return result[:N]  # Adjusted to return only N characters
+    return result[:N]  
 
 # Test cases
-print(solution(3))  # Output: "abc"
-print(solution(5))  # Output: "abcde"
-print(solution(30))  # Output: "abcdefghijklmnopqrstuvwxyz"
+print(solution(3))  
+print(solution(5))  
+print(solution(30))  
